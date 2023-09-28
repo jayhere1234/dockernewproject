@@ -1,26 +1,26 @@
 ---
 version: "3.8"
 services:
-  movies:
-    image: jayaprakashsairam05/paymovies:latest
+  bus:
+    image: jayaprakashsairam05/bus:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
-  train:
-    image: jayaprakashsairam05/paytrain:latest
+  bike:
+    image: jayaprakashsairam05/bike:latest
     ports:
       - 82:80
     deploy:
       replicas: 3
-  dth:
-    image: jayaprakashsairam05/paydth:latest
+  hotel:
+    image: jayaprakashsairam05/hotel:latest
     ports:
       - 83:80
     deploy:
       replicas: 3
-  recharge:
-    image: jayaprakashsairam05/payrecharge:latest
+  room:
+    image: jayaprakashsairam05/room:latest
     ports:
       - 84:80
     deploy:
