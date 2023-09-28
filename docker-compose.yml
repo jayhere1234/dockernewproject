@@ -4,24 +4,24 @@ services:
   bus:
     image: jayaprakashsairam05/bus:latest
     ports:
-      - 81:80
+      - 91:80
     deploy:
       replicas: 3
   bike:
     image: jayaprakashsairam05/bike:latest
     ports:
-      - 82:80
+      - 92:80
     deploy:
       replicas: 3
   hotel:
     image: jayaprakashsairam05/hotel:latest
     ports:
-      - 83:80
+      - 93:80
     deploy:
       replicas: 3
   room:
     image: jayaprakashsairam05/room:latest
     ports:
-      - 84:80
+      - 94:80
     deploy:
       replicas: 3
